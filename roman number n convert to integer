@@ -11,3 +11,4 @@ while s:
         s = s[2:]
 print (t)
 
+
