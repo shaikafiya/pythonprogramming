@@ -1,0 +1,12 @@
+val = {'F': 1, 'H': 5, 'I': 10, 'K': 50, 'T': 300, 'M': 500, 'Q': 1000 }
+s = str(input())
+s = s.upper()
+t = 0
+while s:
+    if len(s) == 1 or val[s[0]] >= val[s[1]]:
+        t += val[s[0]]
+        s = s[1:]
+    else:
+        t += val[s[1]] - val[s[0]]
+        s = s[2:]
+print (t)
