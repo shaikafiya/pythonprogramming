@@ -1,4 +1,4 @@
-j=int(raw_input())
+j=int(input())
 l=input().split()
 l.sort()
 su=0
