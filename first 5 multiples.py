@@ -1,3 +1,4 @@
 n=int(input())
-for m in range (0,n):
-    print(m,end=" ")
+for x in range(1,6):
+    print(n*x)
+
