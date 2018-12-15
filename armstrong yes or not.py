@@ -8,6 +8,6 @@ while temp > 0:
    temp //= 10  
   
 if num == sum:  
-   print(num,"is an Armstrong number")  
+   print(num,"yes")  
 else:  
-   print(num,"is not an Armstrong number")   
+   print(num,"no")   
