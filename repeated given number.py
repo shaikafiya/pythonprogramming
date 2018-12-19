@@ -1,10 +1,11 @@
 h=int(input())
-j=input().split()
-c=" ".join(map(str,j))
-c=[]
-for x in c:
-    if(x not in c):
-        if(c.count(x)>1):
-            k.append(x)
-i=" ".join(k) 
+l=input().split()
+a=" ".join(map(str,l))
+m=[]
+for x in a:
+    if(x not in m):
+        if(a.count(x)>1):
+            m.append(x)
+i=" ".join(m) 
 print(i)
+
