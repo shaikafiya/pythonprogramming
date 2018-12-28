@@ -1,15 +1,17 @@
-b,c=input().split()
-c=list(c)
-d=list(d)
-e=len(c)
-f=len(d)
+a,b=input().split()
+a=list(a)
+b=list(b)
+d=len(a)
+e=len(b)
 i=0
 j=0
-h=[]
-while e>0:
-   if b[i]==c[j]:
-       h.append(b[i])
-   j=j+1
-   i=i+1
-   e=e-1
-print(f-len(h))        
+c=[]
+while d>0:
+    if a[i]==b[j]:
+        c.append(a[i])
+    j=j+1
+    i=i+1
+    d=d-1
+print(e-len(c))
+
+        
