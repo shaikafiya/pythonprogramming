@@ -1,8 +1,8 @@
-m=int(input())
-l=input().split()
+k=int(input())
+g=input().split()
 n=[]
 sum=[]
-for x in l:
+for x in g:
     n.append(int(x))
 for x in range(0,len(n)):
     s1=0
