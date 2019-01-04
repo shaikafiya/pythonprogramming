@@ -23,4 +23,4 @@ for x in range(0,len(n)):
         print("yes")
         break
 else:
-print("no")
+    print("no")
