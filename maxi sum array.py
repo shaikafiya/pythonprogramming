@@ -1,9 +1,9 @@
 M=int(input())
-b=[]
-c=list(map(int,input().split()))
-s1=b[::2]
-s2=b[1::2]
-s3=b[1::3]
+c=[]
+d=list(map(int,input().split()))
+s1=c[::2]
+s2=c[1::2]
+s3=c[1::3]
 if(sum(s1)>sum(s2) and sum(s1)>sum(s3)):
   print(sum(s1))
 elif(sum(s3)>sum(s1) and sum(s3)>sum(s2)):
