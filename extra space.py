@@ -1,7 +1,6 @@
-b=str(input())
-c=b.replace(" "," ")
-print(c)
-
+c=str(input())
+d=c.replace(" "," ")
+print(d)
     
 
    
