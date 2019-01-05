@@ -1,3 +1,3 @@
 a=str(input())
-b=c.replace(" ","")
+b=a.replace(" ","")
 print(b)
