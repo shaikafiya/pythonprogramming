@@ -5,4 +5,3 @@ for i in a:
       b.append(i)
 s2="".join(map(str,b))
 print(s2)
-
