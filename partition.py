@@ -1,12 +1,17 @@
-a,b,c=input().split()
-a=int(a)
-b=int(b)
-c=int(c)
-d=b*4+c*4
-if(a==2 and b==1 and c==1):
-    print("Yes")
-elif(a==d):
-    print("YES")
+N=input().split()
+N=list(map(int,N))
+n=N[0]/2
+a=N[1]
+b=N[2]
+d=int(N[0]/a)
+e=int(N[0]/b)
+c=0
+if(N[0]%2==0):
+  for i in range(1,d):
+    for j in range(1,e):
+      if((a*i)+(b*j)==n):
+        c=1
+if(c==1):
+  print('yes')
 else:
-    print("NO")
-    
+  print('no')
