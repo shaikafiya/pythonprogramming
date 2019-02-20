@@ -1,0 +1,5 @@
+n = int(input())
+arr = input()   
+l = list(map(int,arr.split(' ')))
+k=min(l)
+print(k)
