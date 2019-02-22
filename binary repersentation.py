@@ -2,7 +2,7 @@ a,b=(input().split( ))
 a=int(a)
 b=int(b)
 k=[]
-d=0
+c=0
 for i in range(a,b+1):
     m=list(bin(i))
     del m[1]
@@ -14,6 +14,6 @@ for i in k:
            if i%j==0:
                break
        else:
-            d+=1
-print(d)
+            c+=1
+print(c)
 
